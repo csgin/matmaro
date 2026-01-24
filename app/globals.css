@@ -4,11 +4,17 @@
 
 :root {
   --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  color-scheme: light only;
 }
 
 @layer base {
+  html {
+    color-scheme: light;
+  }
+  
   body {
     @apply bg-white text-neutral-dark;
+    color-scheme: light;
   }
   
   h1 {

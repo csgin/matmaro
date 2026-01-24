@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pl" className="scroll-smooth">
-      <body className={inter.variable}>
+    <html lang="pl" className="scroll-smooth" style={{ colorScheme: 'light' }}>
+      <body className={inter.variable} style={{ colorScheme: 'light' }}>
         <Navigation />
         <main className="min-h-screen">
           {children}
