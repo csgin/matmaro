@@ -7,9 +7,9 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'English Teacher - Professional English Lessons',
+  title: 'Mateusz Maroszek - Professional English Teacher',
   description: 'Learn English with an experienced professional teacher. Personalized lessons for all levels.',
-  keywords: 'English teacher, English lessons, language learning, professional tutoring',
+  keywords: 'English teacher, English lessons, language learning, professional tutoring, Mateusz Maroszek',
 }
 
 export default function RootLayout({

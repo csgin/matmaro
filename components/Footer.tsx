@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-white">English Teacher</h3>
+            <h3 className="text-xl font-bold mb-4 text-white">Mateusz Mroszek</h3>
             <p className="text-gray-300">
               Profesjonalne lekcje angielskiego dopasowane do Twoich potrzeb. 
               Skuteczna nauka z pasją.
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} English Teacher. Wszystkie prawa zastrzeżone.</p>
+          <p>&copy; {new Date().getFullYear()} SUSZIT - Usługi Informatyczne Robert Susz. Wszystkie prawa zastrzeżone.</p>
         </div>
       </div>
     </footer>

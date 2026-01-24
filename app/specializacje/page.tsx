@@ -3,7 +3,7 @@ import { FiBookOpen, FiBriefcase, FiGlobe, FiAward, FiTarget, FiUsers } from 're
 import SpecializationCard from '@/components/SpecializationCard'
 
 export const metadata: Metadata = {
-  title: 'Moje Specializacje - English Teacher',
+  title: 'Moje Specializacje - Mateusz Maroszek',
   description: 'Odkryj moje specializacje: biznesowy angielski, przygotowanie do egzaminów, konwersacje i więcej.',
 }
 
