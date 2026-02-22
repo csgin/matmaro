@@ -34,10 +34,10 @@ npm run dev
 - 📱 Fully responsive (mobile-first)
 - ⚡ Fast loading with Next.js optimization
 - 🎯 SEO optimized
-- 🗺️ Google Maps integration
-- 📧 Contact form
-- 💼 Specializations showcase
+- 📞 Contact form
+- 💼 4 Specializations (online lessons)
 - 📚 Teaching methodology presentation
+- 👨‍🏫 Mateusz Maroszek - English Teacher
 
 ## 🛠️ Tech Stack
 
@@ -71,11 +71,11 @@ images/            # Image assets (Mateusz.jpeg ✓)
 
 ## ⚙️ Quick Customization
 
-**Must update:**
-- Contact info in `components/Footer.tsx`
-- Contact details in `app/kontakt/page.tsx`
-- Google Maps in `app/kontakt/page.tsx`
-- About section in `app/page.tsx`
+**Current contact info:**
+- Email: matmaro.edu@gmail.com
+- Phone: +48 796 988 896
+- Online lessons only (no physical location)
+- Update in `components/Footer.tsx` and `app/kontakt/page.tsx`
 
 **See [CUSTOMIZATION.md](CUSTOMIZATION.md) for detailed guide**
 

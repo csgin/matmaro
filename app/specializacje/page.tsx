@@ -24,7 +24,7 @@ export default function SpecializationsPage() {
       {/* Specializations Grid */}
       <section className="section">
         <div className="container-custom">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {specializations.map((spec, index) => (
               <SpecializationCard key={index} {...spec} />
             ))}
@@ -67,30 +67,6 @@ const specializations = [
     color: 'primary',
   },
   {
-    icon: <FiAward />,
-    title: 'Egzaminy Cambridge',
-    description: 'Kompleksowe przygotowanie do egzaminów FCE, CAE, CPE. Znajomość struktury egzaminu i skuteczne strategie zdawania.',
-    features: [
-      'FCE (First Certificate)',
-      'CAE (Advanced)',
-      'CPE (Proficiency)',
-      'Egzaminy próbne i feedback',
-    ],
-    color: 'accent',
-  },
-  {
-    icon: <FiGlobe />,
-    title: 'IELTS & TOEFL',
-    description: 'Przygotowanie do międzynarodowych testów językowych wymaganych na uniwersytetach i przy emigracji.',
-    features: [
-      'Academic & General IELTS',
-      'TOEFL iBT',
-      'Techniki zdawania testów',
-      'Symulacje egzaminów',
-    ],
-    color: 'primary-light',
-  },
-  {
     icon: <FiUsers />,
     title: 'Konwersacje',
     description: 'Rozwijanie płynności mówienia przez rozmowy na ciekawe tematy. Poszerzanie słownictwa i pewności siebie.',
@@ -107,7 +83,7 @@ const specializations = [
     title: 'Angielski ogólny',
     description: 'Kompleksowa nauka na każdym poziomie - od podstaw (A1) po zaawansowany (C2). Wszystkie aspekty języka.',
     features: [
-      'Poziomy A1-C2',
+      'Poziomy A1-C1',
       'Gramatyka i słownictwo',
       'Czytanie i pisanie',
       'Słuchanie i mówienie',

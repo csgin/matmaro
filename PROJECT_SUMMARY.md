@@ -202,19 +202,19 @@ Total: ~25 files created
 ✅ Final CTA
 
 ### Specializations
-✅ 6 specialization cards
+✅ 4 specialization cards (2x2 layout)
 ✅ Business English
-✅ Exam preparation
 ✅ Conversational English
-✅ General English
+✅ General English (A1-C1)
 ✅ Thematic courses
 ✅ Target audience section
+✅ Note: Cambridge & IELTS/TOEFL removed
 
 ### Teaching Methods
 ✅ Philosophy section
-✅ 6-step method
+✅ 5-step method (2+3 layout)
 ✅ Teaching approach
-✅ Benefits list
+✅ Benefits list (online lessons only)
 ✅ Lesson structure
 ✅ Materials showcase
 
@@ -307,7 +307,18 @@ All requested features implemented and ready for use!
 ---
 
 **Project Completion Date:** January 24, 2026
+**Last Updated:** February 22, 2026
 **Framework:** Next.js 14
 **Language:** TypeScript
 **Styling:** Tailwind CSS
 **Status:** ✅ Production Ready
+
+## Recent Updates (Feb 2026)
+
+- ✅ Updated contact information (matmaro.edu@gmail.com, +48 796 988 896)
+- ✅ Removed physical location - online lessons only
+- ✅ Removed Google Maps integration
+- ✅ Reduced specializations from 6 to 4 (removed Cambridge & IELTS/TOEFL)
+- ✅ Changed layout: Specializacje (2x2), Jak uczę (2+3)
+- ✅ Updated teaching method from 6 to 5 steps
+- ✅ Changed General English range from A1-C2 to A1-C1
