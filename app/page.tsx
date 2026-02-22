@@ -1,6 +1,23 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FiBookOpen, FiUsers, FiTrendingUp, FiAward, FiCheck } from 'react-icons/fi'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Mateusz Maroszek - Profesjonalny Nauczyciel Angielskiego Online',
+  description: 'Nauka angielskiego z doświadczonym nauczycielem. Lekcje online dopasowane do Twojego poziomu - biznesowy angielski, egzaminy, konwersacje. Umów pierwszą lekcję już dziś!',
+  openGraph: {
+    title: 'Mateusz Maroszek - Profesjonalny Nauczyciel Angielskiego Online',
+    description: 'Nauka angielskiego z doświadczonym nauczycielem. Lekcje online dopasowane do Twojego poziomu.',
+    url: 'https://matmaro.edu.pl',
+    images: [{
+      url: '/images/Mateusz.jpeg',
+      width: 1200,
+      height: 630,
+      alt: 'Mateusz Maroszek - Nauczyciel Angielskiego',
+    }],
+  },
+}
 
 export default function Home() {
   return (
@@ -35,7 +52,7 @@ export default function Home() {
             <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/Mateusz.jpeg"
-                alt="English Teacher"
+                alt="Mateusz Maroszek - Profesjonalny Nauczyciel Angielskiego"
                 fill
                 className="object-cover object-top"
                 priority

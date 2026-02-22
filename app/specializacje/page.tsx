@@ -3,8 +3,13 @@ import { FiBookOpen, FiBriefcase, FiGlobe, FiAward, FiTarget, FiUsers } from 're
 import SpecializationCard from '@/components/SpecializationCard'
 
 export const metadata: Metadata = {
-  title: 'Moje Specializacje - Mateusz Maroszek',
-  description: 'Odkryj moje specializacje: biznesowy angielski, przygotowanie do egzaminów, konwersacje i więcej.',
+  title: 'Moje Specializacje - Biznesowy Angielski, Egzaminy | Mateusz Maroszek',
+  description: 'Specjalizuję się w biznesowym angielskim, przygotowaniu do egzaminów, konwersacjach i nauczaniu dla różnych poziomów zaawansowania. Lekcje online dostosowane do Twoich celów.',
+  openGraph: {
+    title: 'Moje Specializacje - Biznesowy Angielski, Egzaminy',
+    description: 'Specjalizuję się w biznesowym angielskim, przygotowaniu do egzaminów, konwersacjach i nauczaniu dla różnych poziomów.',
+    url: 'https://matmaro.edu.pl/specializacje',
+  },
 }
 
 export default function SpecializationsPage() {

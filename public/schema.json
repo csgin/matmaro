@@ -1,0 +1,30 @@
+{
+  "name": "Mateusz Maroszek - Nauczyciel Angielskiego",
+  "description": "Profesjonalny nauczyciel angielskiego oferujący lekcje online dopasowane do Twojego poziomu. Specjalizacja w biznesowym angielskim, przygotowaniu do egzaminów i konwersacjach.",
+  "url": "https://matmaro.edu.pl",
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "serviceType": "English Language Teaching",
+  "provider": {
+    "@type": "Person",
+    "name": "Mateusz Maroszek",
+    "jobTitle": "Nauczyciel języka angielskiego",
+    "email": "matmaro.edu@gmail.com",
+    "telephone": "+48796988896"
+  },
+  "address": {
+    "@type": "VirtualLocation",
+    "description": "Lekcje online"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Polska"
+  },
+  "availableLanguage": ["pl", "en"],
+  "priceRange": "$$",
+  "offers": {
+    "@type": "Offer",
+    "description": "Profesjonalne lekcje języka angielskiego online",
+    "availability": "https://schema.org/InStock"
+  }
+}

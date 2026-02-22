@@ -1,27 +1,29 @@
 import { MetadataRoute } from 'next'
  
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://matmaro.edu.pl'
+  
   return [
     {
-      url: 'https://yourdomain.com',
+      url: baseUrl,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
     },
     {
-      url: 'https://yourdomain.com/specializacje',
+      url: `${baseUrl}/specializacje`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://yourdomain.com/jak-ucze',
+      url: `${baseUrl}/jak-ucze`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://yourdomain.com/kontakt',
+      url: `${baseUrl}/kontakt`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,
