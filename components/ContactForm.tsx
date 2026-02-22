@@ -17,23 +17,36 @@ const ContactForm = () => {
     e.preventDefault()
     setStatus('sending')
 
-    // Simulate form submission - replace with actual API call
-    setTimeout(() => {
-      console.log('Form submitted:', formData)
-      setStatus('success')
-      
-      // Reset form after 3 seconds
-      setTimeout(() => {
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          subject: '',
-          message: '',
-        })
-        setStatus('idle')
-      }, 3000)
-    }, 1500)
+    try {
+      const response = await fetch('https://formspree.io/f/xykdnqaq', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (response.ok) {
+        setStatus('success')
+        
+        // Reset form after 3 seconds
+        setTimeout(() => {
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            subject: '',
+            message: '',
+          })
+          setStatus('idle')
+        }, 3000)
+      } else {
+        setStatus('error')
+      }
+    } catch (error) {
+      console.error('Form submission error:', error)
+      setStatus('error')
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -94,7 +107,7 @@ const ContactForm = () => {
             value={formData.phone}
             onChange={handleChange}
             className="w-full px-4 py-3 rounded-lg border border-neutral-gray focus:border-accent focus:ring-2 focus:ring-accent-light outline-none transition-all"
-            placeholder="+48 123 456 789"
+            placeholder="+48 796 988 896"
           />
         </div>
 

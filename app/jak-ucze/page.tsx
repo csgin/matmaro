@@ -34,11 +34,26 @@ export default function TeachingMethodPage() {
           </div>
 
           {/* Method Steps */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {methodSteps.map((step, index) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            {methodSteps.slice(0, 2).map((step, index) => (
               <div key={index} className="card text-center">
                 <div className="bg-gradient-to-br from-primary to-accent w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                   {index + 1}
+                </div>
+                <div className="text-4xl text-accent mb-4 flex justify-center">
+                  {step.icon}
+                </div>
+                <h3 className="text-xl mb-3">{step.title}</h3>
+                <p className="text-neutral-dark">{step.description}</p>
+              </div>
+            ))}
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+            {methodSteps.slice(2).map((step, index) => (
+              <div key={index + 2} className="card text-center">
+                <div className="bg-gradient-to-br from-primary to-accent w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+                  {index + 3}
                 </div>
                 <div className="text-4xl text-accent mb-4 flex justify-center">
                   {step.icon}
@@ -162,11 +177,6 @@ const methodSteps = [
     description: 'Rozwijamy rozumienie ze słuchu przez autentyczne materiały',
   },
   {
-    icon: <FiTrendingUp />,
-    title: 'Monitoring postępów',
-    description: 'Regularne testy i feedback o Twoich postępach',
-  },
-  {
     icon: <FiStar />,
     title: 'Osiągnięcie celów',
     description: 'Celebrujemy sukcesy i wyznaczamy nowe cele',
@@ -203,7 +213,7 @@ const benefits = [
   'Indywidualny feedback i korekty',
   'Dostęp do autorskich materiałów',
   'Elastyczne godziny lekcji',
-  'Możliwość nauki online lub stacjonarnie',
+  'Możliwość nauki online',
   'Wsparcie między lekcjami',
 ]
 

@@ -24,21 +24,21 @@ Update for each page:
 
 **Footer** (`components/Footer.tsx`):
 ```typescript
-<a href="mailto:your-email@example.com">
-<a href="tel:+48123456789">
-<span>Your City, Poland</span>
+<a href="mailto:matmaro.edu@gmail.com">
+<a href="tel:+48796988896">
+// Adres fizyczny usunięty - tylko lekcje online
 ```
 
 **Contact Page** (`app/kontakt/page.tsx`):
 ```typescript
 const contactInfo = [
   {
-    value: 'your-email@example.com',
+    value: 'matmaro.edu@gmail.com',
   },
   {
-    value: '+48 123 456 789',
+    value: '+48 796 988 896',
   },
-  // ... update all contact details
+  // Adres fizyczny usunięty - tylko online
 ]
 ```
 

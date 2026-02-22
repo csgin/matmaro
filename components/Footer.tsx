@@ -43,19 +43,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-300">
                 <FiMail className="text-accent" />
-                <a href="mailto:kontakt@example.com" className="hover:text-accent transition-colors">
-                  kontakt@example.com
+                <a href="mailto:matmaro.edu@gmail.com" className="hover:text-accent transition-colors">
+                  matmaro.edu@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2 text-gray-300">
                 <FiPhone className="text-accent" />
-                <a href="tel:+48123456789" className="hover:text-accent transition-colors">
-                  +48 123 456 789
+                <a href="tel:+48796988896" className="hover:text-accent transition-colors">
+                  +48 796 988 896
                 </a>
-              </li>
-              <li className="flex items-center gap-2 text-gray-300">
-                <FiMapPin className="text-accent" />
-                <span>Warszawa, Polska</span>
               </li>
             </ul>
           </div>

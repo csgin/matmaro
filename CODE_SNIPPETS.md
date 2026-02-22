@@ -310,7 +310,7 @@ import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi'
 ```typescript
 <div className="flex items-center gap-2">
   <FiMail className="text-accent" />
-  <span>kontakt@example.com</span>
+  <span>matmaro.edu@gmail.com</span>
 </div>
 ```
 
