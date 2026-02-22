@@ -3,8 +3,13 @@ import Image from 'next/image'
 import { FiCheckCircle, FiMessageCircle, FiHeadphones, FiBookOpen, FiTrendingUp, FiStar, FiTarget, FiUsers } from 'react-icons/fi'
 
 export const metadata: Metadata = {
-  title: 'Jak uczę - Moja metoda nauczania',
-  description: 'Poznaj moją skuteczną metodę nauczania angielskiego. Indywidualne podejście, nowoczesne materiały i sprawdzone techniki.',
+  title: 'Jak uczę - Skuteczna Metoda Nauczania Angielskiego | Mateusz Maroszek',
+  description: 'Poznaj moją sprawdzoną metodę nauczania angielskiego: indywidualne podejście, interaktywne lekcje, nowoczesne materiały i skupienie na konwersacjach. Efektywna nauka dla każdego poziomu.',
+  openGraph: {
+    title: 'Jak uczę - Skuteczna Metoda Nauczania Angielskiego',
+    description: 'Poznaj moją sprawdzoną metodę: indywidualne podejście, interaktywne lekcje i skupienie na konwersacjach.',
+    url: 'https://matmaro.edu.pl/jak-ucze',
+  },
 }
 
 export default function TeachingMethodPage() {

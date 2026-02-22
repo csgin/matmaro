@@ -5,7 +5,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
+      disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://yourdomain.com/sitemap.xml',
+    sitemap: 'https://matmaro.edu.pl/sitemap.xml',
   }
 }
