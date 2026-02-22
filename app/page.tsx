@@ -49,7 +49,7 @@ export default function Home() {
             </div>
 
             {/* Image */}
-            <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative w-80 h-80 lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden shadow-2xl mx-auto">
               <Image
                 src="/images/Mateusz.jpeg"
                 alt="Mateusz Maroszek - Profesjonalny Nauczyciel Angielskiego"
